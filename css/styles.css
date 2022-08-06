@@ -510,8 +510,8 @@ section div form div {
 .btn {
   display: inline-block;
   font-weight: 400;
-  color: #212529;
-  text-align: center;
+  color: #000;
+  text-align: left;
   vertical-align: middle;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -559,6 +559,37 @@ section div form div {
 .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
 .show > .btn-primary.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5); }
+
+.btn-secondary {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d; }
+
+.btn-secondary:hover {
+  color: #fff;
+  background-color: #5a6268;
+  border-color: #545b62; }
+
+.btn-secondary:focus, .btn-secondary.focus {
+  color: #fff;
+  background-color: #5a6268;
+  border-color: #545b62;
+  box-shadow: 0 0 0 0.2rem rgba(130, 138, 145, 0.5); }
+
+.btn-secondary.disabled, .btn-secondary:disabled {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d; }
+
+.btn-secondary:not(:disabled):not(.disabled):active, .btn-secondary:not(:disabled):not(.disabled).active,
+.show > .btn-secondary.dropdown-toggle {
+  color: #fff;
+  background-color: #545b62;
+  border-color: #4e555b; }
+
+.btn-secondary:not(:disabled):not(.disabled):active:focus, .btn-secondary:not(:disabled):not(.disabled).active:focus,
+.show > .btn-secondary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(130, 138, 145, 0.5); }
 
 .modal-open {
   overflow: hidden; }
@@ -753,30 +784,6 @@ section div form div {
 @media (min-width: 1200px) {
   .modal-xl {
     max-width: 1140px; } }
-
-.fade {
-  transition: opacity 0.15s linear; }
-
-@media (prefers-reduced-motion: reduce) {
-  .fade {
-    transition: none; } }
-
-.fade:not(.show) {
-  opacity: 0; }
-
-.modal.fade .modal-dialog {
-  transition: -webkit-transform 0.3s ease-out;
-  transition: transform 0.3s ease-out;
-  transition: transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
-  -webkit-transform: translate(0, -50px);
-  transform: translate(0, -50px); }
-
-@media (prefers-reduced-motion: reduce) {
-  .modal.fade .modal-dialog {
-    transition: none; } }
-
-.modal-backdrop.fade {
-  opacity: 0; }
 
 .close {
   float: right;
