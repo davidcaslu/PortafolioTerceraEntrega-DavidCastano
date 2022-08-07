@@ -122,7 +122,7 @@ footer {
   text-align: left; }
 
 .margin-modal {
-  margin: 15px; }
+  margin: 25px; }
 
 @media screen and (max-width: 1000px) {
   .flex-tarjetas, .flex-tarjetas-columns {
