@@ -23,8 +23,24 @@
     color: black
 }
 
-.frame-tarjetas {
+.flex-tarjetas {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.flex-tarjetas-columns {
+    @extend .flex-tarjetas;
+    flex-direction: column;
+}
+
+.margin-modal {
+    margin: 15px;
+}
+
+@media screen and (max-width: 1000px) {
+    .flex-tarjetas {
+        flex-direction: column;
+    }
 }
