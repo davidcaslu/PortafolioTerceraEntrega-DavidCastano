@@ -105,12 +105,6 @@ footer {
 .tarjetas:hover {
   transform: scale(1.02); }
 
-.p_tarjetas {
-  font-family: 'Inter', sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-  color: black; }
-
 .flex-tarjetas, .flex-tarjetas-columns {
   display: flex;
   align-items: center;
@@ -120,12 +114,22 @@ footer {
 .flex-tarjetas-columns {
   flex-direction: column; }
 
+.p_tarjetas, .p_tarjetas-interior {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #000;
+  text-align: left; }
+
 .margin-modal {
   margin: 15px; }
 
 @media screen and (max-width: 1000px) {
   .flex-tarjetas, .flex-tarjetas-columns {
-    flex-direction: column; } }
+    flex-direction: column; }
+  .p_tarjetas-interior {
+    text-align: center;
+    font-size: 14px; } }
 
 #plantilla {
   display: grid;

@@ -16,13 +16,6 @@
     transform:scale(1.02)
 }
 
-.p_tarjetas {
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    color: black
-}
-
 .flex-tarjetas {
     display: flex;
     align-items: center;
@@ -35,6 +28,18 @@
     flex-direction: column;
 }
 
+.p_tarjetas {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: $texto-descripcion-paginas;
+    text-align: left;
+}
+
+.p_tarjetas-interior {
+    @extend .p_tarjetas;
+}
+
 .margin-modal {
     margin: 15px;
 }
@@ -42,5 +47,10 @@
 @media screen and (max-width: 1000px) {
     .flex-tarjetas {
         flex-direction: column;
+    }
+
+    .p_tarjetas-interior {
+        text-align: center;
+        font-size: 14px;
     }
 }
