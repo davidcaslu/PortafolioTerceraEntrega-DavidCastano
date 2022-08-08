@@ -780,7 +780,7 @@ section{
 }
 
 .modal-backdrop.show {
-    opacity: 0.5;
+    opacity: 0.9;
 }
 
 .modal-header {
@@ -865,7 +865,7 @@ section{
     }
 }
 
- @media (min-width: 992px) {
+@media (min-width: 992px) {
     .modal-lg,
     .modal-xl {
         max-width: 800px;
