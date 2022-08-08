@@ -83,6 +83,7 @@ footer {
   color: white; }
 
 .footer_index {
+  position: relative;
   z-index: 1; }
 
 .footer--inline {
