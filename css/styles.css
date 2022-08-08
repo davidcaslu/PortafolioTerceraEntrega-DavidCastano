@@ -85,6 +85,12 @@ footer {
 .footer--inline {
   display: inline; }
 
+.enlaceBlanco_footer {
+  text-decoration: none;
+  font-weight: 300;
+  color: white;
+  font-size: 16px; }
+
 .filtroInvertir {
   filter: invert(1); }
 
@@ -464,7 +470,9 @@ section div form div {
     list-style: none; }
     ul li {
       font-size: 12px;
-      margin: 10px; } }
+      margin: 10px; }
+  .enlaceBlanco_footer {
+    font-size: 14px; } }
 
 @media screen and (max-width: 643px) {
   h1, .h2_paginas {
@@ -482,6 +490,8 @@ section div form div {
     ul li {
       font-size: 10px;
       margin: 7px; }
+  .enlaceBlanco_footer {
+    font-size: 12px; }
   #plantilla_formulario {
     display: grid;
     height: 245px;
